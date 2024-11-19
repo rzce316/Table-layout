@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computer Shop Table Layout</title>
+    <style>
+        /* Base styles for the layout */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+
+        .table-layout {
+            width: 120cm;
+            height: 240cm;
+            position: relative;
+            background-color: #d9d9d9;
+            margin: auto;
+            border: 2px solid #333;
+        }
+
+        .workstation {
+            width: 60cm;
+            height: 80cm;
+            position: absolute;
+            background-color: #ffcc00;
+            border: 1px solid #333;
+        }
+
+        .workstation-1 {
+            left: 0;
+            top: 0;
+        }
+
+        .workstation-2 {
+            left: 60cm;
+            top: 0;
+        }
+
+        .workstation-3 {
+            left: 120cm;
+            top: 0;
+        }
+
+        .coin-slot {
+            width: 30cm;
+            height: 30cm;
+            position: absolute;
+            background-color: #4caf50;
+            bottom: 0;
+            left: 0;
+            border: 1px solid #333;
+        }
+
+        .top-shelf {
+            width: 120cm;
+            height: 30cm;
+            position: absolute;
+            top: 0;
+            background-color: #ff5733;
+            border: 1px solid #333;
+        }
+    </style>
+</head>
+<body>
+
+<div class="table-layout">
+    <!-- Top Shelf for CPUs -->
+    <div class="top-shelf">
+        <span style="color: white; padding: 10px; font-weight: bold;">Top Shelf for CPUs</span>
+    </div>
+
+    <!-- Workstations -->
+    <div class="workstation workstation-1">
+        <span style="color: white; padding: 10px; font-weight: bold;">Workstation 1</span>
+    </div>
+    <div class="workstation workstation-2">
+        <span style="color: white; padding: 10px; font-weight: bold;">Workstation 2</span>
+    </div>
+    <div class="workstation workstation-3">
+        <span style="color: white; padding: 10px; font-weight: bold;">Workstation 3</span>
+    </div>
+
+    <!-- Coin Slot Area -->
+    <div class="coin-slot">
+        <span style="color: white; padding: 10px; font-weight: bold;">Coin Slot</span>
+    </div>
+</div>
+
+</body>
+</html>
